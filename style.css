@@ -24,8 +24,13 @@ h1 {
     font-family: 'Fraunces';
 }
 
-#productImg {
+.image_mobile {
+    display: block;
     border-radius: 10px 10px 0 0;
+}
+
+.image_full {
+    display: none;
 }
 
 section {
@@ -115,8 +120,13 @@ main {
         justify-content: space-between;
     }
 
-    #productImg {
+    .image_full {
         /* height: 50vh; */
+        display: block;
         border-radius: 10px 0 0 10px;
+    }
+
+    .image_mobile {
+        display: none;
     }
 }

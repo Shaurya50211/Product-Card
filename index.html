@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -18,7 +18,9 @@
 
 <body>
   <main>
-    <img id="productImg" src="images/image-product-mobile.jpg" alt="product-image">
+
+    <img src="images/image-product-desktop.jpg" class="image_full">
+    <img src="images/image-product-mobile.jpg"  class="image_mobile">
     <section>
       <p class="item">Perfume</p>
 
@@ -36,19 +38,6 @@
       <button> <img src="images/icon-cart.svg" alt="cart-icon"> Add to Cart</button>
     </section>
   </main>
-
-  <script>
-
-      window.onresize = checkViewport;
-
-    function checkViewport() {
-      if (window.matchMedia('(min-width: 768px)').matches) {
-        document.getElementById("productImg").src="./images/image-product-desktop.jpg";
-    } else {
-      document.getElementById("productImg").src="./images/image-product-mobile.jpg";
-    }
-    }
-  </script>
 </body>
 
 </html>
