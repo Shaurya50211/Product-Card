@@ -43,5 +43,5 @@ I learned about Google PageSpeed and used that to see me website rating. As of n
 
 ## Author
 
-- Frontend Mentor - [@Shaurya50211]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/Shaurya50211))
+- Frontend Mentor - [@Shaurya50211](https://www.frontendmentor.io/profile/Shaurya50211)
 - Twitter (X) - [@shaurya50211](https://www.twitter.com/@shaurya50211)
